@@ -1,0 +1,252 @@
+
+  /* For mobile screen: */
+  @media only screen and (max-width: 767px) {
+    img{
+        align-items: center;
+        width: 90%;
+        /* height: auto; */
+        padding-left: 15px;
+    }
+    
+    a{
+        text-align: left;
+        text-decoration: none;
+        padding-left: 20px;
+        color:rgb(52, 174, 231);
+        font-weight: bold;
+        font: size 15px;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    .store {
+        background-image: url(./images//background.jpg);
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 8;
+        gap: 50px;
+        align-items: center;
+        padding: 30px;
+      }
+      .item1 {
+        grid-column: 1  ;
+        grid-row: 1;
+        background-color: white;
+      }
+      .item2 {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: white;
+      }
+      .item3 {
+        grid-column: 1;
+        grid-row: 3;
+        background-color: white;
+      }
+      .item4 {
+        grid-column: 1;
+        grid-row: 4;
+        background-color: white;
+      }
+      .item5 {
+        grid-column: 1;
+        grid-row: 5;
+        background-color: white;
+      }
+      .item6 {
+        grid-column: 1;
+        grid-row: 6;
+        background-color: white;
+      }
+      .item7 {
+        grid-column: 1;
+        grid-row: 7;
+        background-color: white;
+      }
+      .item8 {
+        grid-column: 1;
+        grid-row: 8;
+        background-color: white;
+      }
+  }
+
+    /* For Tablet screen: */
+  @media only screen and (min-width: 768px){
+
+    img{
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+        margin-bottom: -2px;
+        /* height: auto; */
+        /* padding-left: 15px; */
+    }
+    
+    a{
+        text-align: left;
+        text-decoration: none;
+        padding-left: 20px;
+        color:rgb(52, 174, 231);
+        font-weight: bold;
+        font: size 15px;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    .store {
+        background-image: url(./images//background.jpg);
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 3;
+        gap: 50px;
+        align-items: center;
+        background-color: grey;
+        padding: 30px;
+      }
+      .item1 {
+        grid-column: 1  ;
+        grid-row: 1;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item2 {
+        grid-column: 2;
+        grid-row: 1;
+        background-color: white;
+        align-items: center;
+        margin: 7px;
+      }
+      .item3 {
+        grid-column: 3;
+        grid-row: 1;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item4 {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: white;
+        /* width: 100%; */
+        padding: 10px;
+      }
+      .item5 {
+        grid-column: 2;
+        grid-row: 2;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item6 {
+        grid-column: 3;
+        grid-row: 2;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item7 {
+        grid-column: 1;
+        grid-row: 3;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item8 {
+        grid-column: 2;
+        grid-row: 3;
+        background-color: white;
+        /* width: 100%; */
+      }
+
+  }
+  /* For Laptop screen: */
+
+  @media only screen and (min-width: 992px) {
+    img{
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+        margin-bottom: -2px;
+        /* height: auto; */
+        /* padding-left: 15px; */
+    }
+    
+    a{
+        text-align: left;
+        text-decoration: none;
+        padding-left: 20px;
+        color:rgb(52, 174, 231);
+        font-weight: bold;
+        font: size 15px;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    .store {
+        background-image: url(./images//background.jpg);
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 4;
+        grid-template-rows: 2;
+        gap: 50px;
+        align-items: center;
+        background-color: grey;
+        padding: 30px;
+      }
+      .item1 {
+        grid-column: 1  ;
+        grid-row: 1;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item2 {
+        grid-column: 2;
+        grid-row: 1;
+        background-color: white;
+        align-items: center;
+        margin: 7px;
+      }
+      .item3 {
+        grid-column: 3;
+        grid-row: 1;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item4 {
+        grid-column: 4;
+        grid-row: 1;
+        background-color: white;
+        /* width: 100%; */
+        padding: 10px;
+      }
+      .item5 {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item6 {
+        grid-column: 2;
+        grid-row: 2;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item7 {
+        grid-column: 3;
+        grid-row: 2;
+        background-color: white;
+        /* width: 100%; */
+      }
+      .item8 {
+        grid-column: 4;
+        grid-row: 2;
+        background-color: white;
+        /* width: 100%; */
+      }
+  }
