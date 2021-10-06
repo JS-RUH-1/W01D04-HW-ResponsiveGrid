@@ -1,0 +1,58 @@
+/*Some necessary adjustments*/
+body,
+html {
+  margin: 0;
+  background-color: #ebeded;
+}
+
+/* Css For Desktop and default css */
+
+.container {
+  display: grid;
+  grid-template-columns: 4;
+  grid-auto-rows: auto;
+}
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 1vh;
+  margin: 1vh;
+}
+.firstC {
+  grid-column: -5;
+}
+h2 {
+  text-align: left;
+  margin: 1vh;
+}
+
+p {
+  text-align: left;
+  font-size: 1.25rem;
+  margin: 1vh;
+}
+
+/* Css For Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    display: grid;
+    grid-template-columns: 3;
+    grid-auto-rows: auto;
+  }
+  .firstC {
+    grid-column: -4;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Css For Mobile */
+@media screen and (max-width: 767px) {
+  .container {
+    display: block;
+  }
+  p {
+    font-size: 1.75rem;
+  }
+}
