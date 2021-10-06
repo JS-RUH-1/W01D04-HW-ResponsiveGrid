@@ -1,0 +1,20 @@
+/*  -------Mobile View------  */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(187, 187, 187);
+  }
+  .main {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .card {
+    background-color: rgb(255, 255, 255);
+  }
+  img {
+    width: 580px;
+    height: 550px;
+  }
+}
