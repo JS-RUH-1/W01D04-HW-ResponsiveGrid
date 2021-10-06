@@ -1,4 +1,4 @@
-/*  -------Mobile View------  */
+/*  -------Mobile Screen------  */
 
 @media only screen and (max-width: 600px) {
   body {
@@ -16,5 +16,27 @@
   img {
     width: 580px;
     height: 550px;
+  }
+}
+
+/* Tablet Screen */
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: rgb(187, 187, 187);
+  }
+  .main {
+    display: grid;
+    gap: 15px;
+    /* grid-template-rows: 20% 20% 20%; */
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(4, 33%);
+  }
+  .card {
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+  }
+  img {
+    width: 250px;
+    height: 250px;
   }
 }
