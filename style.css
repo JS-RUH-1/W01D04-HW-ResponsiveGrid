@@ -9,7 +9,7 @@ body {
     #8ddca0
   );
 }
-
+/* Mobile Screen */
 @media only screen and (max-width: 600px) {
   .grid-container {
     display: grid;
@@ -70,7 +70,7 @@ body {
     font-size: 13px;
   }
 }
-
+/* Tablet Screen */
 @media only screen and (min-width: 600px) and (max-width: 992px) {
   .grid-container {
     display: grid;
@@ -132,7 +132,7 @@ body {
     font-size: 13px;
   }
 }
-
+/* Computers and Large Screen */
 @media only screen and (min-width: 992px) {
   .grid-container {
     display: grid;
