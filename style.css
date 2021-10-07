@@ -27,9 +27,11 @@
   .main {
     display: grid;
     gap: 15px;
-    /* grid-template-rows: 20% 20% 20%; */
-    grid-template-columns: repeat(3, 32%);
-    grid-template-rows: repeat(4, 33%);
+    /* grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(4, 33%); */
+
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: repeat(4, 420px);
   }
   .card {
     background-color: rgb(255, 255, 255);
@@ -50,8 +52,8 @@
     display: grid;
     gap: 15px;
     /* grid-template-rows: 20% 20% 20%; */
-    grid-template-columns: repeat(4, 24.2%);
-    grid-template-rows: repeat(4, 50%);
+    grid-template-columns: repeat(4, 350px);
+    grid-template-rows: repeat(4, 500px);
   }
   .card {
     background-color: rgb(255, 255, 255);
