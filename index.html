@@ -1,0 +1,130 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        padding: 5%;
+        background: #9ad2d4;
+        background: linear-gradient(
+          175deg,
+          #9ad2d4 0%,
+          rgb(243, 243, 243) 49%,
+          rgb(243, 243, 243) 100%
+        );
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        height: 750px;
+      }
+      .grid-item {
+        background-color: white;
+        padding: 5% 20px 10%;
+      }
+      .img-background {
+        height: 60%;
+        background-size: cover;
+      }
+      .img1-background {
+        background-image: url("images/Home essentials.png");
+      }
+      .img2-background {
+        background-image: url("images/Shop the fastion outlet.png");
+      }
+      .img3-background {
+        background-image: url("images/Extra 15% off watches.png");
+      }
+      .img4-background {
+        background-image: url("images/Men's Polos.png");
+      }
+      .img5-background {
+        background-image: url("images/bed essentials.png");
+      }
+      .img6-background {
+        background-image: url("images/from 10% t0 20%.png");
+      }
+      .img7-background {
+        background-image: url("images/Prime Entertainment.png");
+      }
+      .img8-background {
+        background-image: url("images/Best selling sandals.png");
+      }
+      h1 {
+        font-size: 20px;
+      }
+      a {
+        color: rgb(2, 99, 102);
+        margin-top: 40px;
+        display: block;
+      }
+
+      @media (min-width: 600px) and (max-width: 1023px) {
+        .container {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 20px;
+        }
+        a {
+          margin-top: 10px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          display: block;
+        }
+        .grid-item {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-item">
+        <h1>Home essentials | 10% - 30% off</h1>
+        <div class="img1-background img-background"></div>
+        <a>see more</a>
+      </div>
+      <div class="grid-item">
+        <h1>Shop the fashion outlet</h1>
+        <div class="img2-background img-background"></div>
+        <a>see more</a>
+      </div>
+      <div class="grid-item">
+        <h1>Extra 50% ff watches</h1>
+        <div class="img3-background img-background"></div>
+        <a>see more</a>
+      </div>
+      <div class="grid-item">
+        <h1>Men's polos | below ASR 199</h1>
+        <div class="img4-background img-background"></div>
+        <a>see more</a>
+      </div>
+      <div class="grid-item">
+        <h1>Bedding essentials</h1>
+        <div class="img5-background img-background"></div>
+        <a>see more</a>
+      </div>
+      <div class="grid-item">
+        <h1>From 10% to 20% off</h1>
+        <div class="img6-background img-background"></div>
+        <a>see more</a>
+      </div>
+      <div class="grid-item">
+        <h1>Prime entertainment</h1>
+        <div class="img7-background img-background"></div>
+        <a>see more</a>
+      </div>
+      <div class="grid-item">
+        <h1>Best selling sandals | 10% - 60% off</h1>
+        <div class="img8-background img-background"></div>
+        <a>see more</a>
+      </div>
+    </div>
+  </body>
+</html>
