@@ -1,0 +1,106 @@
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 3px; 
+           }
+
+           
+           body {
+            background-color: rgb(185, 206, 219);
+           }   
+.polo{
+  
+        grid-column: 1/2;     
+
+}  
+
+.home{
+   
+    grid-column: 2/3;
+      
+
+}
+.watches {
+   
+     grid-column: 3/4;
+
+}
+.outlit {
+  
+     grid-column:4/-1;
+}
+ 
+
+.bed {
+     grid-row:2/-1;
+     grid-column:1/2;
+
+}
+.lap {
+     grid-column:2/3;
+     grid-row:2/-1;
+} 
+
+
+
+/*taplet*/
+@media screen and (min-width: 768px) and (max-width:1024px){
+
+    .grid{  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 3px; 
+           }
+
+           
+           body {
+            background-color: rgb(185, 215, 233);
+           }   
+.polo{
+  
+        grid-column: 1/2;     
+
+}  
+
+.home{
+   
+    grid-column: 2/3;
+      
+
+}
+.watches {
+   
+     grid-column: 3/-1;
+
+}
+.outlit {
+    grid-row:2/-1;
+     grid-column:1/2;
+}
+ 
+
+.bed {
+     grid-row:2/-1;
+     grid-column:2/3;
+
+}
+.lap {
+     grid-column:3/-1;
+     grid-row:2/-1;
+} 
+
+   }  
+
+
+
+@media screen  and (max-width: 767px){ 
+    .grid{
+        display: flex;
+        flex-direction: column;
+           }
+
+
+ } 
