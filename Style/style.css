@@ -23,6 +23,7 @@ html {
 }
 h2 {
   text-align: left;
+  font-size: 1.75vw;
   margin: 1vh;
 }
 
@@ -43,7 +44,10 @@ p {
     grid-column: -4;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 2.5vw;
+  }
+  h2 {
+    font-size: 3vw;
   }
 }
 
@@ -53,6 +57,9 @@ p {
     display: block;
   }
   p {
-    font-size: 1.75rem;
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 3.5vw;
   }
 }
